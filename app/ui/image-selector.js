@@ -11,10 +11,10 @@ export default()=>{
         <>
 
             <label htmlFor="myfs">
-                <Image src="/hero-desktop.png" width={24} height={24} alt="preview/>
+                <Image src="/hero-desktop.png" width={24} height={24} alt="preview"/>
             </label>
             <inpu id="myfs" type="file" name="media" hidden onChange={preview}/>
-           
+
 
     )
 }
