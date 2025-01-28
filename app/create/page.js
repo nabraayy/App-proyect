@@ -1,10 +1,11 @@
 import { createPost } from "../lib/actions"
+import ImageSelector from "../ui/image-selector"
 
 export default()=>{
-<form action={createPost}>
+<form action={createPost} className="flex flex-col gap-8">
 
 <input name='content'/>
-<input type='file' name='media'/>
+<ImageSelector/>
 <input type='submit' value='publicar'/>
 
 </form>
