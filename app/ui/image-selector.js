@@ -14,7 +14,7 @@ export default()=>{
                 <Image src="/hero-desktop.png" width={24} height={24} alt="preview"/>
             </label>
             <inpu id="myfs" type="file" name="media" hidden onChange={preview}/>
-
+        </>
 
     )
 }
