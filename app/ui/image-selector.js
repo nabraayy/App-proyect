@@ -1,6 +1,6 @@
 'use client'
 import {useState} from "react"
-import Image from "next/Image"
+import Image from "next/image"
 export default()=>{
     const[imagen, setImagen]= useState("/hero-desktop.png")
     function preview(ev){
