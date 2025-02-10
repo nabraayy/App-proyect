@@ -4,16 +4,16 @@ import Image from "next/image"
 export default()=>{
     const[imagen, setImagen]= useState("/hero-desktop.png")
     function preview(ev){
-        setImagen(URL.createObjectURL(event.target.files[0]))
+        setImagen(URL.createObjectURL(ev.target.files[0]))
     }
     
     return(
         <>
 
             <label htmlFor="myfs">
-                <Image src="/hero-desktop.png" width={24} height={24} alt="preview"/>
+                <Image id=""img src={imagen} width={24} height={24} alt="preview"/>
             </label>
-            <inpu id="myfs" type="file" name="media" hidden onChange={preview}/>
+            <inpu id="myfs" type="file" name="media" hidden onChange={preview} required/>
         </>
 
     )

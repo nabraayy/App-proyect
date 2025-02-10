@@ -1,7 +1,7 @@
 export default()=>{
     return(
         <div>
-            <p>Comentarios</p>
+            <p>like</p>
         </div>
     )
 }
